@@ -1,1 +1,2 @@
- the variables, the data, and any transformations or work that you performed to clean up the data
+CodeBook - Experiment with accelerometers from the Samsung Galaxy S smartphone
+
