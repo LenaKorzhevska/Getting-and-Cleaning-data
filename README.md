@@ -7,6 +7,9 @@ In the file CodeBook.md there are description of all variables, data and the ste
 
 In the file run_analysis.R there is R code for the manipulations with data.
 
+In the file tidy_data.Rda and tidy_data.txt there is a tidy data set (just different formats, the same information inside).
+
+
 
 Files with dataset:
 - 'features_info.txt'
