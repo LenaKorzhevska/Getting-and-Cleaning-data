@@ -37,12 +37,12 @@ activityLable - activity name, WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SI
 
 Manipulation with data:
 1)The data are taken from abovementioned files in the following order:
-  -3 files contain test information where concatenated together: 'test/subject_test.txt','test/X_test.txt','test/y_test.txt'.
-  -the names of columns were added from 'features.txt' 
-  -receive data.frame c_file_t
-  -3 files contain train information where concatenated together: 'train/subject_train.txt','train/X_train.txt','train/y_train.txt'.
-   -the names of columns were added from 'features.txt'
-   -receive data.frame c_file_train
+  - 3 files contain test information where concatenated together: 'test/subject_test.txt','test/X_test.txt','test/y_test.txt'.
+  - the names of columns were added from 'features.txt' 
+  - receive data.frame c_file_t
+  - 3 files contain train information where concatenated together: 'train/subject_train.txt','train/X_train.txt','train/y_train.txt'.
+   - the names of columns were added from 'features.txt'
+   - receive data.frame c_file_train
 2) 2 datasets where binded together row-wise into all_data: 563 variables and 10299 rows
 3) all_data where subseted to include only measurement columns with mean() and std() information of observations. Subseted dataset all_data_subs consists of 68 columns(variables) and 10299 rows
 4)received dataset was joint with the names of activities and the final_data with 69 columns and 10299 rows was received
